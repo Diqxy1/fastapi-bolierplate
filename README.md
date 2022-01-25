@@ -7,9 +7,6 @@ This is a project for studies, this project is done in python, SQLAlchemy, alemb
 
 **/USER**
 - Create
-- Update
-- Delete
-- Detail
 
 ## Requirements
 
@@ -50,11 +47,5 @@ python3 runserver.py
 -> alembic revision -m "create account table"
 - Run Migration
 -> alembic upgrade head
-
-## Working Routes
-
-https://bolierplate-fastapi.herokuapp.com/docs
-
-## Documentation
-
-https://bolierplate-fastapi.herokuapp.com/redoc
+- History migration
+-> alembic history
